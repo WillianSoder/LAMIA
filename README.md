@@ -1,4 +1,3 @@
-
 # LAMIA
 The Laboratory of Machine Learning and Images Applied to Industry is offered by the Federal Technological University of Paraná (UTFPR) and aims to develop research and/or products related to artificial intelligence.
 
