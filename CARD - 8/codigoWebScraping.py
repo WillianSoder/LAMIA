@@ -9,7 +9,7 @@ html= requests.get('https://lista.mercadolivre.com.br/porsche-911-turbo#D[A:pors
 soup = BeautifulSoup(html, 'lxml') # Analisa o HTML da página usando BeautifulSoup e o parser 'lxml'
 
 anuncios = soup.find_all('li', class_ = 'ui-search-layout__item') # pgando a lista de anuncios 
-precos_SP = [] # cria uma lista de preços vazia paar SP
+precos_SP = [] # cria uma lista de preços vazia para SP
 precos_SC = [] # cria uma lista de prços vazia para SC
 
 ano_user = int(input('Digite a partir de ano deseja buscar o carro: '))
